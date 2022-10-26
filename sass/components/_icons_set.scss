@@ -19,7 +19,7 @@
 
     &:hover,
     &:focus {
-      background-color: var(--text-accent);
+      background-color: $text-accent;
     }
   }
 
@@ -32,7 +32,7 @@
 
     .icons-set__link:hover &,
     .icons-set__link:focus & {
-      fill: var(--background-nav);
+      fill: $background-nav;
     }
   }
 }

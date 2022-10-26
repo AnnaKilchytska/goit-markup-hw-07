@@ -9,11 +9,11 @@
   margin-right: 93px;
 
   &__web {
-    color: var(--text-accent);
+    color: $text-accent;
   }
 
   &__studio {
-    color: var(--text-contrast);
+    color: $text-contrast;
   }
 
   &__footer {

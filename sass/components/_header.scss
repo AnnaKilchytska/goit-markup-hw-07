@@ -1,5 +1,5 @@
 .header-section {
-  background-color: var(--background-nav);
+  background-color: $background-nav;
   border-bottom: 1px solid #ececec;
 
   &__item {
@@ -9,7 +9,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--text-main);
+    color: $text-main;
     padding: 32px 0;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -23,7 +23,7 @@
       display: block;
       width: 100%;
       height: 4px;
-      background-color: var(--text-accent);
+      background-color: $text-accent;
       border-radius: 2px;
     }
 
@@ -40,25 +40,21 @@
   }
 
   &__contact {
-    color: var(--text-secondary);
-    display: flex;
-    align-items: center;
+    color: $text-secondary;
+    @include flex;
   }
 }
 
 .header-container {
-  display: flex;
-  align-items: center;
+  @include flex;
 }
 
 .navigation {
-  display: flex;
-  align-items: center;
+  @include flex;
 
   &__list {
-    display: flex;
+    @include flex;
     margin-left: auto;
-    align-items: center;
   }
 
   &__item {
