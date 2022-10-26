@@ -8,8 +8,8 @@
 }
 
 .features__heading {
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: $font-bold;
+  font-size: $size-standard;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -32,7 +32,7 @@
 }
 
 .features__text {
-  font-size: 14px;
+  font-size: $size-standard;
   line-height: 1.71;
 
   letter-spacing: 0.03em;
