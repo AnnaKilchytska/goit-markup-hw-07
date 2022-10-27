@@ -78,6 +78,7 @@ a {
 .site-nav {
   margin-left: auto;
 }
+
 .site-nav__item {
   position: relative;
   margin-right: 50px;
@@ -86,6 +87,7 @@ a {
 .site-nav__item:last-child {
   margin-right: 0;
 }
+
 .site-nav__link {
   display: block;
   font-weight: 500;
@@ -115,6 +117,7 @@ a {
 .contact {
   margin-left: auto;
 }
+
 .contact__item {
   margin-right: 50px;
   text-align: center;
@@ -122,6 +125,7 @@ a {
 .contact__item:last-child {
   margin-right: 0;
 }
+
 .contact__link {
   color: #757575;
   font-weight: 500;
@@ -135,6 +139,7 @@ a {
 .contact__link:hover, .contact__link:focus {
   color: #2196f3;
 }
+
 .contact__icon {
   margin-right: 10px;
   fill: currentColor;
@@ -341,10 +346,12 @@ a {
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
+
 .clients__item {
   width: 170px;
   height: 92px;
 }
+
 .clients__link {
   display: flex;
   justify-content: center;
@@ -358,6 +365,7 @@ a {
 .clients__link:hover, .clients__link:focus {
   border: 1px solid #2196f3;
 }
+
 .clients__icon {
   width: 106px;
   height: 60px;
@@ -716,7 +724,7 @@ a {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio__caption {
+.portfolio__box {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
