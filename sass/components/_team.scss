@@ -1,10 +1,6 @@
 .team {
-  background-color: $background-team;
-
-  &__list {
-    display: flex;
-    column-gap: 30px;
-  }
+  display: flex;
+  column-gap: 30px;
 
   &__heading {
     margin-bottom: 10px;
@@ -15,7 +11,7 @@
     letter-spacing: 0.03em;
   }
 
-  &__caption {
+  &__thumb {
     padding: 30px 32px;
   }
 

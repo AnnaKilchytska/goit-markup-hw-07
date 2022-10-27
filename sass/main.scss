@@ -1,7 +1,8 @@
 @import "./utils/variables";
+@import "./utils/container";
+@import "./utils/section";
 @import "./utils/visually-hidden";
-@import "./utils/heading-secondary";
-@import "./utils/mixins";
+@import "./utils/placeholders";
 @import "./base/base";
 @import "./components/header";
 @import "./components/hero";

@@ -1,8 +1,32 @@
-.header-section {
+.header {
   background-color: $background-nav;
   border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+  @extend %flex;
+}
+
+.navigation {
+  @extend %flex;
+}
+
+.site-nav {
+  @extend %flex;
+  margin-left: auto;
 
   &__item {
+    position: relative;
+
+    margin-right: 50px;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
     display: block;
     font-weight: 500;
     font-size: $size-standard;
@@ -32,39 +56,42 @@
       color: $text-accent;
     }
   }
-
-  &__icon {
-    margin-right: 10px;
-    fill: currentColor;
-    text-align: center;
-  }
-
-  &__contact {
-    color: $text-secondary;
-    @include flex;
-  }
 }
 
-.header-container {
-  @include flex;
-}
-
-.navigation {
-  @include flex;
-
-  &__list {
-    @include flex;
-    margin-left: auto;
-  }
+.contact {
+  @extend %flex;
+  margin-left: auto;
 
   &__item {
-    position: relative;
-
     margin-right: 50px;
     text-align: center;
 
     &:last-child {
       margin-right: 0;
     }
+  }
+
+  &__link {
+    color: $text-secondary;
+    @extend %flex;
+    font-weight: 500;
+    font-size: $size-standard;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding: 32px 0;
+
+    transition: color 250ms $cubic-bezier;
+
+    &:hover,
+    &:focus {
+      color: $text-accent;
+    }
+  }
+
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+    text-align: center;
   }
 }
